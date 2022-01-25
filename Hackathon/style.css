@@ -1,0 +1,66 @@
+/*body{
+margin: 0;
+padding: 0;
+}*/
+
+
+.myContainer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightslategrey;
+    justify-content: center;
+    gap: 1.5%;
+    padding-bottom: 2%;
+    margin: 0%;
+    padding: 1%;
+    min-width: 300px;
+    min-height: 300PX;
+}
+
+.card{ 
+    background-color: black;
+    width: 300px;
+    margin: 1%;
+}
+
+.card-body{
+    background-color: black;
+    color:blanchedalmond;
+    justify-content: center;
+    border-radius: 2%;
+    border: 1px solid bisque;
+
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: black;
+    min-width: 300px;
+    color:blanchedalmond !important;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.search-button{
+
+ color:  antiquewhite !important;
+
+}
+
+a:link{
+    text-decoration: none;
+    color:  blanchedalmond !important;
+}
+
+a:hover{
+    color: cornflowerblue !important;
+}
+
+a:visited{
+    color:darksalmon !important;
+}
